@@ -39,4 +39,5 @@ In each line, there are three numbers, the first 2 are data points coordinates, 
 Please follow the below to test this program
 
 import svmMLiA
+
 svmMLiA.testRbf('svmTrain.txt','svmTest.txt')
