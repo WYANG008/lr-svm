@@ -37,5 +37,6 @@ two files are provided, one is training data named 'svmTrain.txt', one is 'svmTe
 In each line, there are three numbers, the first 2 are data points coordinates, while the last one is the label {-1,1}
 
 Please follow the below to test this program
+
 import svmMLiA
 svmMLiA.testRbf('svmTrain.txt','svmTest.txt')
