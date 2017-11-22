@@ -20,7 +20,7 @@ trainingSet,trainingLabels=logRegres.loadDataSet('lrTrain.txt')
 
 3. training weights
 
-weights=logRegres.stocGradAscent1(array(trainingSet),trainingLabels,150)
+weights=logRegres.stocGradAscent1(array(trainingSet),trainingLabels,500)
 
 4. test classifier error using the testing files
 
