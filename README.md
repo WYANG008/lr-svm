@@ -28,6 +28,8 @@ logRegres.classifierTest('lrTest.txt',weights)
 
 
 
+
+
 #for svm testing
 
 the optimization method used is full Platt SMO algorithm
