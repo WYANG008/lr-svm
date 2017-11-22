@@ -10,16 +10,20 @@ in each line, there are 22 numbers, the first 21 numbers are the data vectors, w
 Please follow the below steps to test this program
 
 1. load required libray
+
 from numpy import *
 import logRegres
 
 2. load training data
+
 trainingSet,trainingLabels=logRegres.loadDataSet('lrTrain.txt')
 
 3. training weights
+
 weights=logRegres.stocGradAscent1(array(trainingSet),trainingLabels,150)
 
 4. test classifier error using the testing files
+
 logRegres.classifierTest('lrTest.txt',weights)
 
 
