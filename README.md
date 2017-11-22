@@ -10,17 +10,17 @@ in each line, there are 22 numbers, the first 21 numbers are the data vectors, w
 Please follow the below steps to test this program
 
 1. load required libray
->>from numpy import *
->>import logRegres
+from numpy import *
+import logRegres
 
 2. load training data
->> trainingSet,trainingLabels=logRegres.loadDataSet('lrTrain.txt')
+trainingSet,trainingLabels=logRegres.loadDataSet('lrTrain.txt')
 
 3. training weights
->> weights=logRegres.stocGradAscent1(array(trainingSet),trainingLabels,150)
+weights=logRegres.stocGradAscent1(array(trainingSet),trainingLabels,150)
 
 4. test classifier error using the testing files
->> logRegres.classifierTest('lrTest.txt',weights)
+logRegres.classifierTest('lrTest.txt',weights)
 
 
 
@@ -33,5 +33,5 @@ two files are provided, one is training data named 'svmTrain.txt', one is 'svmTe
 In each line, there are three numbers, the first 2 are data points coordinates, while the last one is the label {-1,1}
 
 Please follow the below to test this program
->>import svmMLiA
->>svmMLiA.testRbf('svmTrain.txt','svmTest.txt')
+import svmMLiA
+svmMLiA.testRbf('svmTrain.txt','svmTest.txt')
